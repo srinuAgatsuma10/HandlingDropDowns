@@ -25,8 +25,7 @@ public class HandlingDropDown {
 
 	@Test
 	public void countryDropDown() {
-		WebElement dropDown = driver.findElement(
-				By.xpath("//div[@class='single_tab_div resp-tab-content resp-tab-content-active']//p//select"));
+		WebElement dropDown = driver.findElement(By.xpath("//div[@class='single_tab_div resp-tab-content resp-tab-content-active']//p//select"));
 		Select dp = new Select(dropDown);
 		dp.selectByVisibleText("India"); 	// Select by using visible text
 		dp.selectByIndex(5); 	// Select by index value
