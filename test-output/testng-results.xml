@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-18T21:26:32 IST" name="Default suite" finished-at="2025-03-18T21:26:57 IST" duration-ms="25017">
+    <groups>
+    </groups>
+    <test started-at="2025-03-18T21:26:32 IST" name="Default test" finished-at="2025-03-18T21:26:57 IST" duration-ms="25017">
+      <class name="globlasQA.HandlingDropDown">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:globlasQA.HandlingDropDown@3754a4bf]" started-at="2025-03-18T21:26:32 IST" name="setUp" finished-at="2025-03-18T21:26:56 IST" duration-ms="24144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="countryDropDown()[pri:0, instance:globlasQA.HandlingDropDown@3754a4bf]" started-at="2025-03-18T21:26:56 IST" name="countryDropDown" finished-at="2025-03-18T21:26:57 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countryDropDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:globlasQA.HandlingDropDown@3754a4bf]" started-at="2025-03-18T21:26:57 IST" name="tearDown" finished-at="2025-03-18T21:26:57 IST" duration-ms="537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- globlasQA.HandlingDropDown -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
