@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tutorialsPoint.SingleSelectDropDown">
+      <class name="tutorialsPoint.MultiSelectDropDown">
         <methods>
-          <include name="tearDown"/>
           <include name="selectOneDropDown"/>
+          <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- tutorialsPoint.SingleSelectDropDown -->
+      </class> <!-- tutorialsPoint.MultiSelectDropDown -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
