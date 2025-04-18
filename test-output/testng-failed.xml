@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="orangeHRM.HandlingHidden_DropDown">
+      <class name="tutorialsPoint.SingleSelectDropDown">
         <methods>
-          <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="hiddenDropDown"/>
+          <include name="selectOneDropDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- orangeHRM.HandlingHidden_DropDown -->
+      </class> <!-- tutorialsPoint.SingleSelectDropDown -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
